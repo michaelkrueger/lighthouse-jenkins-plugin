@@ -1,0 +1,4 @@
+<div>
+  Control the Lighthouse depending on the build state.
+  <div style="color: red;">If you are using an older version, you must re-save the global and jobs configuration.</div>
+</div>

@@ -1,0 +1,28 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Lighthouse">
+    <f:entry title="Lighthouse URL" field="lighthouseURL">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Lighthouse Operation" field="lighthouseOp">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Red" field="colorRed">
+      <f:textbox default="#ff0000" />
+    </f:entry>
+    <f:entry title="Yellow" field="colorYellow">
+      <f:textbox default="#ffff00" />
+    </f:entry>
+    <f:entry title="Green" field="colorGreen">
+      <f:textbox default="#00ff00" />
+    </f:entry>
+    <f:entry title="Blue" field="colorBlue">
+      <f:textbox default="#0000ff" />
+    </f:entry>
+    <f:entry title="Saturation" field="saturation">
+      <f:textbox default="255" />
+    </f:entry>  
+    <f:entry title="Brightness" field="brightness">
+      <f:textbox default="255" />
+    </f:entry>
+  </f:section>
+</j:jelly>
